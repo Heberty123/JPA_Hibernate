@@ -15,7 +15,7 @@ public class Programa {
 
         Pessoa p = em.find(Pessoa.class, 2);
         System.out.println(p);
-        
+
         System.out.println("Pronto!");
         em.close();
         emf.close();
